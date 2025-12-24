@@ -1,0 +1,50 @@
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  background: white;
+  width: 360px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.auth-card p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+.otp-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: center;
+}
+

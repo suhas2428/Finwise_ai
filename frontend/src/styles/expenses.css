@@ -1,0 +1,63 @@
+.expenses {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+.expenses h1 {
+  margin-bottom: 20px;
+}
+
+.expense-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.expense-form input {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.expense-form button {
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.expense-table table {
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.delete {
+  background: none;
+  color: #dc2626;
+  font-weight: bold;
+}
+.expense-form input[type="file"] {
+  border: none;
+}
+
+.expense-form button {
+  transition: background 0.2s ease;
+}
+
+.expense-form button:hover {
+  background: #1d4ed8;
+}
